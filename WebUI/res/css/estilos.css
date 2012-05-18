@@ -1,0 +1,661 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 10px; PADDING-TOP: 0px
+}
+FORM {
+	MARGIN: 0px
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+#principal {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+#principal TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+#herramientas {
+	PADDING-RIGHT: 18px
+}
+#herramientas IMG {
+	MARGIN-LEFT: 10px
+}
+#pie {
+	FONT-SIZE: 9px; PADDING-BOTTOM: 8px; MARGIN: 0px; COLOR: #666666; PADDING-TOP: 8px; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+#pie A {
+	COLOR: #666666
+}
+#principal .txt10gris {
+	FONT-SIZE: 10px; COLOR: #666666
+}
+#principal .txt10arialgris {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#principal .txt11blan {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+#principal .txt14blan {
+	FONT-SIZE: 14px; COLOR: #ffffff
+}
+INPUT {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; COLOR: #cc0000; BORDER-BOTTOM: #666666 1px dashed
+}
+
+.subtitulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 10px; COLOR: #cc0000
+}
+
+.subtitulo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 10px; COLOR: #0033CC
+}
+
+.paginado {
+	FONT-WEIGHT: bold; COLOR: #666666
+}
+.paginado A {
+	COLOR: #666666
+}
+
+#principal .txtSmall {
+	FONT-SIZE: 9px; font-family: Arial;
+}
+
+#principal .TableRpt
+{
+	border-width: 0px;
+}
+#principal .TRheadRpt TD
+{
+	border-style : groove ;
+	text-align :center;
+	FONT-WEIGHT: bold;
+	border-color : Black;  
+	border-width: 1px;
+}
+#principal .FooterNoneRpt {	border-color: #000000;
+	border-width: 0px;
+	border-color : White; 
+}
+
+#principal .FooterRpt{	border-color: #000000;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	border-style: groove;
+	border-color : Black;  
+	border-width: 1px;
+}
+#principal .TRlistRpt TD {	border-color: #000000;
+	border-width: 0px;
+	border-color : White; 
+}
+
+/*Grilla*/
+#principal .TRlistG TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-BOTTOM: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; MARGIN: 0px; BACKGROUND-COLOR: #f8f8f8
+}
+#principal .TRaltG TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+/*F Grilla*/
+
+
+
+#principal TD.Footer {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dadada
+}
+#principal .TRhead TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: center
+}
+#principal .TRhead2 TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; FONT-SIZE: 10px; font-family: Arial; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: left
+}
+#principal .TRlist TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; BORDER-BOTTOM: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; MARGIN: 0px; BACKGROUND-COLOR: #f8f8f8
+}
+
+#principal .TRlist2 TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; FONT-SIZE: 10px; font-family: Arial; BORDER-BOTTOM: #d3d3d3 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; MARGIN: 0px; BACKGROUND-COLOR: #f8f8f8
+}
+#principal .TRlist3 TD {
+	 FONT-SIZE: 10px; font-family: Arial; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; MARGIN: 0px; BACKGROUND-COLOR: #eeeeee
+}
+#principal .TRsel2 TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; FONT-SIZE: 10px; font-family: Arial; BORDER-BOTTOM: #d3d3d3 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; MARGIN: 0px; BACKGROUND-COLOR: #ebebe1
+}
+#principal .TRalt TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+#principal .TRsel TD {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid; BACKGROUND-COLOR: #ebebe1
+}
+#principal TH {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: left
+}
+#principal TD.td00 {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid; BACKGROUND-COLOR: #f8f8f8
+}
+#principal TD.td01 {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 8px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid
+}
+#principal .bordetabla {
+	BORDER-TOP: #d3d3d3 1px solid; MARGIN-TOP: 7px; MARGIN-BOTTOM: 7px; BORDER-LEFT: #d3d3d3 1px solid
+}
+#principal .bordetabla2 
+{
+	BORDER: #d3d3d3 1px solid;	MARGIN-TOP: 3px; MARGIN-BOTTOM: 3px; 
+}
+#principal .NObordetabla {
+	BORDER-TOP: 0px none #FFFFFF; MARGIN-TOP: 3px; MARGIN-BOTTOM: 3px; BORDER-LEFT: 0px none #FFFFFF
+}
+#principal .frame TR TD 
+{
+	border-width: 0px;
+	PADDING-RIGHT: 4px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: left
+}
+#menu TD {
+	FONT-WEIGHT: bold; BORDER-LEFT: #999999 2px solid; COLOR: #ffffff; TEXT-ALIGN: center
+}
+#menu A {
+	PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; COLOR: #ffffff; PADDING-TOP: 3px; BACKGROUND-COLOR: #666666; TEXT-DECORATION: none
+}
+#menu A:hover {
+	WIDTH: 100%; BACKGROUND-COLOR: #999999
+}
+#menu .nolink {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; CURSOR: default; PADDING-TOP: 3px; BACKGROUND-COLOR: #999999
+}
+#menuder {	
+	BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px
+}
+#menuder .espacio {
+border-right: 0px none #FFFFFF;
+}
+#menuder TD {
+	BORDER-RIGHT: #cccccc 1px solid; 
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; 
+	BORDER-BOTTOM: #cccccc 1px solid; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	TEXT-ALIGN: right
+}
+#menuder A {
+	PADDING-RIGHT: 4px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; COLOR: #666666; 
+	PADDING-TOP: 3px; 
+	TEXT-DECORATION: none
+}
+#menuder A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9a9a68
+}
+#menuder .tdvacio {
+	BORDER-RIGHT: #ffffff 0px; BORDER-TOP: #ffffff 0px; BORDER-LEFT: #ffffff 0px; BORDER-BOTTOM: #ffffff 0px
+}
+#menuder .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	CURSOR: default; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #9a9a68
+}
+
+#menuderA {	
+	BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px
+}
+#menuderA .espacio {
+border-right: 0px none #FFFFFF;
+}
+#menuderA TD {
+	BORDER-RIGHT: #cccccc 1px solid; 
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; 
+	BORDER-BOTTOM: #cccccc 1px solid; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	TEXT-ALIGN: right
+}
+#menuderA A {
+	PADDING-RIGHT: 4px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; COLOR: #666666; 
+	PADDING-TOP: 3px; 
+	TEXT-DECORATION: none
+}
+#menuderA A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9a9a68
+}
+#menuderA .tdvacio {
+	BORDER-RIGHT: #ffffff 0px; BORDER-TOP: #ffffff 0px; BORDER-LEFT: #ffffff 0px; BORDER-BOTTOM: #ffffff 0px
+}
+#menuderA .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	CURSOR: default; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #9a9a68
+}
+
+#menuder02 td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02 .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02 A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02 A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+
+#menuder02A td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02A .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02A A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02A A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+#menuderB {	
+	BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px
+}
+#menuderB .espacio {
+border-right: 0px none #FFFFFF;
+}
+#menuderB TD {
+	BORDER-RIGHT: #cccccc 1px solid; 
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; 
+	BORDER-BOTTOM: #cccccc 1px solid; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	TEXT-ALIGN: right
+}
+#menuderB A {
+	PADDING-RIGHT: 4px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; COLOR: #666666; 
+	PADDING-TOP: 3px; 
+	TEXT-DECORATION: none
+}
+#menuderB A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9a9a68
+}
+#menuderB .tdvacio {
+	BORDER-RIGHT: #ffffff 0px; BORDER-TOP: #ffffff 0px; BORDER-LEFT: #ffffff 0px; BORDER-BOTTOM: #ffffff 0px
+}
+#menuderB .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	CURSOR: default; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #9a9a68
+}
+#menuder02B td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02B .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02B A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02B A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+
+#menuder02D td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02D .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02D A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02D A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+#menuder02E td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02E .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02E A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02E A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+#menuderC {	
+	BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px
+}
+#menuderC .espacio {
+border-right: 0px none #FFFFFF;
+}
+#menuderC TD {
+	BORDER-RIGHT: #cccccc 1px solid; 
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; 
+	BORDER-BOTTOM: #cccccc 1px solid; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	TEXT-ALIGN: right
+}
+#menuderC A {
+	PADDING-RIGHT: 4px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; COLOR: #666666; 
+	PADDING-TOP: 3px; 
+	TEXT-DECORATION: none
+}
+#menuderC A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #9a9a68
+}
+#menuderC .tdvacio {
+	BORDER-RIGHT: #ffffff 0px; BORDER-TOP: #ffffff 0px; BORDER-LEFT: #ffffff 0px; BORDER-BOTTOM: #ffffff 0px
+}
+#menuderC .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	CURSOR: default; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #9a9a68
+}
+
+#menuder02C td {
+FONT-SIZE: 10px;
+border-right: 0px none #FFFFFF;
+}
+
+#menuder02C .tdnolink {
+	PADDING-RIGHT: 4px; 
+	PADDING-LEFT: 3px; 
+	FONT-WEIGHT: normal; 
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 100%; 
+	COLOR: #000000; 
+	PADDING-TOP: 3px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BACKGROUND-COLOR: #CFCFC7
+}
+#menuder02C A {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1
+}
+#menuder02C A:hover {
+	COLOR: #666666; BACKGROUND-COLOR: #ebebe1; TEXT-DECORATION: underline
+}
+
+.imgED 
+{
+	border-style:none;
+	width:50px;
+	height:50px;
+}
+
+.imgCal {
+	CURSOR: hand
+}
+.lblError {
+	COLOR: red
+}
+.graybutton 
+{
+	text-decoration:none;
+	BORDER: solid 1px #aaaaaa; FONT-WEIGHT: normal; FONT-SIZE: 9px; CLIP: rect(1px 1px 1px 1px); 
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eeeeee;
+	font-weight:bold;
+}
+
+.graybuttonNormal 
+{
+	text-decoration:none;
+	BORDER: solid 1px DarkGray; FONT-WEIGHT: normal; FONT-SIZE: 9px; CLIP: rect(1px 1px 1px 1px); 
+	COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f8f8f8;
+}
+.tabbutton, .selectedtabbutton
+{
+	vertical-align: middle;
+	cursor: hand;
+	color: Black;
+	background-color: #f8f8f8;
+	text-align: center;
+	font-size: 8pt;
+	border-right:  solid 1px white;
+}
+.selectedtabbutton 
+{ 
+	font-size: 10pt;
+	FONT-WEIGHT: bold; 
+	COLOR:White; 
+	BACKGROUND-COLOR: #cccccc;
+	cursor:default;
+}
+.tbpanel0
+{
+	border-collapse:collapse;
+	BACKGROUND-COLOR: #eeeeee;
+}
+.tbpanel
+{
+	BORDER: solid 2px #cccccc; CLIP: rect(1px 1px 1px 1px); 
+	BACKGROUND-COLOR: #eeeeee;
+}
+.tbpanel TD
+{
+	padding: 1px 5px 1px 5px;
+}
+.tbpanel2
+{
+	BORDER: solid 2px #cccccc; CLIP: rect(1px 1px 1px 1px); 
+	BACKGROUND-COLOR: #eeeeee;
+}
+.tbpanel2 TD
+{
+	padding: 1px 5px 1px 0px;
+}
+
+#tablaborde {
+	margin-bottom: 10px;
+}
+#tablaborde table{
+	border: 1px solid #999999;
+}
+#tablaborde table table{
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-bottom: 0px none #D3D3D3;
+	border-right: 0px none #D3D3D3;
+}
+
+#tablaborde table th{
+	font-size: 14px;
+	color: #CC0000;
+}
+
+#tablaborde table table th{
+	font-size: 11px;
+	color: #000000;
+}
+
+.txtReadOnly
+{
+	 background-color:#eeeeee;
+	 border-style:Solid;
+	 border-width:1px;
+	 border-color:Black;
+}
+/**/
+.divLef
+{float:left;
+	/*width:60%;*/
+	height:auto; padding-right:20px;}
+	
+.divRight
+{float:right;
+	/*width:30%;*/
+	height:auto;}
+	
+.titleNew
+{
+	color:red;
+	font-size:10pt;
+	font-family:Arial;
+	BORDER-TOP: #d3d3d3 1px solid; MARGIN-TOP: 7px; MARGIN-BOTTOM: 7px; BORDER-LEFT: #d3d3d3 1px solid}
+.tablaNew
+{ border:solid 1px #000000;}
+.divAbsolute
+{width:100%;
+	height:auto;}
+	
+.divText
+{
+	border:solid 2px #000000;
+	width:80%;
+	height:30px;
+	vertical-align:middle;
+	}
+.divSeparator
+{border:solid 1px #990033;width:700px;
+	padding: 5px 5px 5px 5px ;height:auto;}
+.ImagenEnlace
+{border:0px;width:30px;height:30px; text-decoration:none;
+}
+
+.CajaTextoDerecha
+{
+text-align:right;
+font-weight:bold;
+background-color:#eeeeee;
+border-style:none;
+}
+
+/* ESTILOS QUE SE UTILIZAN PARA EL SCRIPT DE LA GRILLA */
+.ItemGrillaPasarMouse {
+	font-size: 10px;
+	color: #000080;
+	font-family:  Arial;
+	background-color: #ffe8dd;
+	height: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+}
+.ItemGrillaPasarMouse a{
+	font-size: 10px;
+	color: #000080;
+	font-family:  Arial;
+	padding: 5px 3px 3px 6px;
+	height: 10px;
+}
+
+.ItemGrillaHacerClick {
+	font-size: 10px;
+	color: #000080;
+	font-family:  Arial;
+	background-color: #D2EF3C;
+	height: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+}
+.ItemGrillaHacerClick a{
+	font-size: 10px;
+	color: #000080;
+	font-family:  Arial;
+	padding: 5px 3px 3px 6px;
+	height: 10px;
+}
+.tablabordeA {
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-bottom: 0px none #D3D3D3;
+	border-right: 0px none #D3D3D3;
+}
+
+/* FIN DEL ESTILOS QUE SE UTILIZAN PARA EL SCRIPT DE LA GRILLA */
