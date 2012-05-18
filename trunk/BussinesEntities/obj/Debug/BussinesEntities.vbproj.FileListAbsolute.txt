@@ -1,0 +1,10 @@
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.dll
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.pdb
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.xml
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\ResolveAssemblyReference.cache
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.Resources.resources
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\ResGen.read.1.tlog
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\ResGen.write.1.tlog
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.dll
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.xml
+E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.pdb

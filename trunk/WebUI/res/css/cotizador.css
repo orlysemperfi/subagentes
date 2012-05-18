@@ -1,0 +1,27 @@
+
+.tabMenu .TDSelected{
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: center
+}
+.tabMenu .TDOption {
+	BORDER-RIGHT: #d3d3d3 1px solid; PADDING-RIGHT: 4px; PADDING-LEFT: 5px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px; BORDER-BOTTOM: #d3d3d3 1px solid; BACKGROUND-COLOR: #ebebe1;  TEXT-ALIGN: center
+}
+
+.TDPanel
+{
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: silver 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: silver 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: silver 1px solid;
+}
+
+.txtNumeric
+{
+	text-align:right;
+	font-weight:bold;
+}
+
+.noLink
+{
+	text-decoration: none
+}
+.TRAlternativo
+{
+	BORDER-RIGHT: #d3d3d3 0px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #dadada; TEXT-ALIGN: left
+}

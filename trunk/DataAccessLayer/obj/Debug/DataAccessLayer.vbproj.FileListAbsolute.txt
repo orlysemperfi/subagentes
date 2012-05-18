@@ -1,0 +1,13 @@
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.xml
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.dll
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.pdb
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.xml
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.Resources.resources
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\ResGen.read.1.tlog
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\ResGen.write.1.tlog
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.xml
+E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
