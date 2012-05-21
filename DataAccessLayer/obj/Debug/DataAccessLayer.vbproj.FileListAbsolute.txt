@@ -11,3 +11,16 @@ E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\ResGen.write.1
 E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.xml
 E:\My Files\UPC\TP_2\Sistema\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\DataAccessLayer.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\bin\Debug\BussinesEntities.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.Resources.resources
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\ResGen.read.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\ResGen.write.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

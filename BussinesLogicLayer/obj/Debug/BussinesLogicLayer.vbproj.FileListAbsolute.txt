@@ -14,3 +14,19 @@ E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesLogicLayer\obj\Debug\ResGen.writ
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.dll
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.xml
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\ResolveAssemblyReference.cache
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.Resources.resources
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\ResGen.read.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\ResGen.write.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\obj\Debug\BussinesLogicLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesLogicLayer.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesLogicLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesLogicLayer.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesEntities.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\DataAccessLayer.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesEntities.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\BussinesEntities.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\DataAccessLayer.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesLogicLayer\bin\Debug\DataAccessLayer.xml
