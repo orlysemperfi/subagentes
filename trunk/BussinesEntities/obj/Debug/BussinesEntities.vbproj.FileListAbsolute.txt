@@ -8,3 +8,13 @@ E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\ResGen.write.
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.dll
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.xml
 E:\My Files\UPC\TP_2\Sistema\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.pdb
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\bin\Debug\BussinesEntities.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\ResolveAssemblyReference.cache
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.Resources.resources
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\ResGen.read.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\ResGen.write.1.tlog
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.dll
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.xml
+M:\UPC\2012-1\Taller de Proyecto II\Trabajo Final\1er Entregable\Subagentes\BussinesEntities\obj\Debug\BussinesEntities.pdb
