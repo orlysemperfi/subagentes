@@ -5,47 +5,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Condor Travel</title>
+
     <script language="javascript" src="res/script/scripts.js" type="text/javascript"></script>
     <link href="res/css/estilos.css" type="text/css" rel="stylesheet" />
     <link href="res/css/cotizador.css" type="text/css" rel="stylesheet" />
-    <script language="javascript">
-        /*
-        function SearchItem(IdLinea) {
-        MM_openBrWindow('wbuscador.aspx?urlReturn=cotizacion_add_con.aspx&IdLinea=' + IdLinea, 'Buscador', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=640,height=350');
-        }
+    <link href="res/css/dcaccordion.css" type="text/css" rel="stylesheet" />
+    <link href="res/css/skins/graphite.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type='text/javascript' src='res/script/jquery.cookie.js'></script>
+    <script type='text/javascript' src='res/script/jquery.hoverIntent.minified.js'></script>
+    <script type='text/javascript' src='res/script/jquery.dcjqaccordion.2.7.min.js'></script>
+    
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function($){
+            $('#accordion-1').dcAccordion({
+						eventType: 'click',
+						autoClose: false,
+                        classActive  : 'dcjq-active',
+						saveState: true,
+						disableLink: false,
+						speed: 'fast',
+						showCount: false,
+						autoExpand: false,
+						cookie	: 'dcjq-accordion-1',
+						classExpand: 'dcjq-current-parent'
+		     });
+        });
 
-        function MuestraDescuento(opt) {
-        if (opt == 1) {
-        dgDetalle.Columns[1].Visible = true;
-        dgDetalle.Columns[2].Visible = true;
-        }
-        else {
-        dgDetalle.Columns[1].Visible = false;
-        dgDetalle.Columns[2].Visible = false;
 
-        }
-
-        }
-
-        function InfoTecnica(IdLinea, IdItem) {
-        MM_openBrWindow('InfoItem.aspx?urlReturn=cotizacion_add_con.aspx&IdLinea=' + IdLinea + '&IdItem=' + IdItem, 'Informacion', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=710,height=400');
-        }
-
-        function SearchCliente(Opcion) {
-        MM_openBrWindow('wClientes.aspx?urlReturn=cotizacion_add_con.aspx&IdTipo=' + Opcion, 'Buscador', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=640,height=350');
-        }
-        function Upload(opt) {
-        if (opt == 1) {
-        TRImportar.style.display = "none";
-        TRCodigo.style.display = "";
-        }
-        else {
-        TRImportar.style.display = "";
-        TRCodigo.style.display = "none";
-        }
-        }
-        */
     </script>
+    <style type="text/css">
+        .style1
+        {
+            width: 76px;
+        }
+    </style>
 </head>
 <body >
     <form id="form1" runat="server">
@@ -162,8 +156,56 @@
         <table cellspacing="0" cellpadding="0" width="100%" border="0">
             <tbody>
                 <tr>
-                    <td valign="top" width="132">
+                    <td valign="top" class="style1">
                         <img src="res/img/puntos.gif" runat="server">
+					    <div class="graphite demo-container" id="graphite">
+                            <ul class="accordion" id="accordion-1">
+							    <li ><a href="#">Trámites</a>
+								    <ul> 
+									    <li ><a href="ConsultaInformeFinanciero.aspx">Informe Financiero</a></li>
+									    <li ><a href="ConsultaAfiliacion.aspx">Solicitud de Afiliación</a></li>
+									    <li ><a href="ConsultaRenovacion.aspx">Solicitud de Renovación</a></li>
+									    <li ><a href="ConsultaCancelacion.aspx">Solicitud de Cancelación</a></li>
+									    <li ><a href="ConsultaApEvaComercial.aspx">Aprobación de Evaluación Comercial</a></li>
+									    <li ><a href="ConsultaApEvaFinanciera.aspx">Aprobación de Evaluación Financiera</a></li>
+								    </ul>
+							    </li>
+							    <li ><a href="#">Contratos</a>
+								    <ul>
+									    <li><a href="ConsultaContrato.aspx">Contrato</a></li>
+									    <li><a href="ConsultaContratoAutorizar.aspx">Autorizar Contrato</a></li>
+								    </ul>
+							    </li>
+							    <li ><a href="#">Administración</a>
+								    <ul>
+									    <li><a href="ActualizaReglasAfiliacion.aspx">Actualizar Reglas de Afiliación</a></li>
+								    </ul>
+							    </li>
+							    <li ><a href="#">Seguimiento</a>
+								    <ul>
+									    <li><a href="ConsultaReclamo.aspx">Seguimiento de Reclamos</a></li>
+									    <li><a href="ConsultaSubagente.aspx">Actualizar Subagente</a></li>
+								    </ul>
+							    </li>
+							    <li ><a href="#">Informes</a>
+								    <ul>
+									    <li><a href="CriteriosSeguimiento.aspx">Desempeño de Subagente</a></li>
+									    <li><a href="CriteriosComision.aspx">Reporte de Comisiones</a></li>
+									    <li><a href="CriteriosTramiteSubagente.aspx">Reporte de Trámites</a></li>
+									    <li><a href="GenerarReporteContratos.aspx">Reporte de Contratos de Subagentes</a></li>
+								    </ul>
+							    </li>
+							    <li ><a href="#">Configuración</a>
+								    <ul>
+									    <li><a href="ConsultaMotivoRechazo.aspx">Motivo Rechazo</a></li>
+									    <li><a href="ConsultaReglaPagoSubagente.aspx">Reglas Pago de Subagente</a></li>
+									    <li><a href="ConsultaComisionesSubagente.aspx">Comisión Subagente</a></li>
+									    <li><a href="ConsultaAgencia.aspx">Agencia</a></li>
+									    <li><a href="ConsultaTerritorio.aspx">Territorio</a></li>
+								    </ul>
+							    </li>
+						    </ul>
+					    </div>                                          
                         <div id="menuder">
                             <asp:ContentPlaceHolder ID="MenuDerecha" runat="server">
                             </asp:ContentPlaceHolder>
@@ -184,7 +226,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td valign="top">
+                    <td valign="top" class="style1">
                         &nbsp;
                     </td>
                     <td>
