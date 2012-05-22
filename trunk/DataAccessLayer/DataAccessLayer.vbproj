@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionDAO.vb" />
+    <Compile Include="DA_Estado.vb" />
     <Compile Include="DA_Solicitud.vb" />
     <Compile Include="DA_Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

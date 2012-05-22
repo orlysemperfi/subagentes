@@ -1,5 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/TravelIndex.master" CodeFile="RegistroAfiliacion.aspx.vb" Inherits="pages_ApvEvaComercial" %>
-
+﻿<%@ Page Language="VB" AutoEventWireup="true" MasterPageFile="~/TravelIndex.master" Debug="true" CodeFile="RegistroAfiliacion.aspx.vb" Inherits="pages_ApvEvaComercial" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MenuDerecha" runat="server">
@@ -7,207 +6,22 @@
 <tbody>
 <tr>
 <td style="height: 133px">
-<span id="Menu_left1_dlSMenu_ctl00_lblSMenu" class="tdnolink">Trámites</span>
+
 <div id="menuder02">
 <table id="Menu_left1_dlSMenu_ctl00_dlModulo" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
     <tbody>
         <tr>
             <td>
-                <!--
-                Colocar la clase tdnolink cuando se muestre la interfaz de la opción seleccionada
-                Ejemplo:
-                <a id="A7" href="ConsultaInformeFinanciero.aspx" class="tdnolink">Informe Financiero</a> 
-                !-->  
-                <a id="A7" href="ConsultaInformeFinanciero.aspx">Informe Financiero</a> 
+                 
             </td>
         </tr>
-        <tr>
-            <td>
-                <a id="A27" href="ConsultaAfiliacion.aspx" class="tdnolink">Solicitud de Afiliación</a> 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A26" href="ConsultaRenovacion.aspx">Solicitud de Renovación</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A25" href="ConsultaCancelacion.aspx">Solicitud de Cancelación</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A3" href="ConsultaApEvaComercial.aspx">Aprobación de Evaluación Comercial</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A4" href="ConsultaApEvaFinanciera.aspx">Aprobación de Evaluación Financiera</a>
-            </td>
-        </tr>
+        
      </tbody>
 </table>
 </div>
 </td>
 </tr>
-<!--
-Inicio 
-!-->  
-<tr>
-<td style="height: 55px">
-<span id="Span1" class="tdnolink">Contratos</span>
-<div id="menuder02A">
-<table id="Table2" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
-    <tbody>
-        <tr>
-            <td>
-                <a id="A1" href="ConsultaContrato.aspx">Contrato</a>  
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A2" href="ConsultaContratoAutorizar.aspx">Autorizar Contrato</a>
-            </td>
-        </tr>        
-     </tbody>
-</table>
-</div>
-</td>
-</tr>
-<!--
-Fin
-!-->  
 
-<!--
-Inicio 
-!-->  
-<tr>
-<td style="height: 30px">
-<span id="Span5" class="tdnolink">Administración</span>
-<div id="menuder02E">
-<table id="Table5" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
-    <tbody>
-        <tr>
-            <td>
-                <a id="A13" href="ActualizaReglasAfiliacion.aspx">Actualizar Reglas de Afiliación</a> 
-            </td>
-        </tr>
-     </tbody>
-</table>
-</div>
-</td>
-</tr>
-<!--
-Fin
-!-->  
-<!--
-Inicio 
-!-->  
-<tr>
-<td style="height: 53px">
-<span id="Span2" class="tdnolink">Seguimiento</span>
-<div id="menuder02B">
-<table id="Table1" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
-    <tbody>
-        <tr>
-            <td>
-                <a id="A5" href="ConsultaReclamo.aspx">Seguimiento de Reclamos</a> 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a id="A14" href="ConsultaSubagente.aspx">Actualizar Subagente</a> 
-            </td>
-        </tr>
-     </tbody>
-</table>
-</div>
-</td>
-</tr>
-<!--
-Fin
-!-->  
-<!--
-Inicio 
-!-->  
-<tr>
-<td style="height: 53px">
-<span id="Span3" class="tdnolink">Informes</span>
-<div id="menuder02C">
-<table id="Table3" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
-    <tbody>
-        <tr>
-            <td>
-                <a id="A6" href="CriteriosSeguimiento.aspx">Desempeño de Subagente</a>
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <a id="A9" href="CriteriosComision.aspx">Reporte de Comisiones</a> 
-            </td>
-        </tr>
-		<tr>
-			<td>
-                <a id="A9" href="CriteriosTramiteSubagente.aspx">Reporte de Trámites </a>
-			</td>
-        </tr>
-		<tr>
-			<td>
-                <a id="A9" href="GenerarReporteContratos.aspx">Reporte de Contratos de Subagentes</a>
-			</td>
-        </tr>
-	</tbody>
-</table>
-</div>
-</td>
-</tr>
-<!--
-Fin
-!-->  
-
-<!--
-Inicio
-!--> 
-<tr>
-<td style="height: 53px">
-<span id="Span4" class="tdnolink">Configuración</span>
-<div id="menuder02D">
-<table id="Table4" cellspacing="0" cellpadding="0" border="0" style="border-width:0px;width:100%;border-collapse:collapse;">
-    <tbody>
-        <tr>
-            <td>
-                <a id="A8" href="ConsultaMotivoRechazo.aspx" >Motivo Rechazo</a> 
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <a id="A8" href="ConsultaReglaPagoSubagente.aspx" >Reglas Pago de Subagente</a> 
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <a id="A10" href="ConsultaComisionesSubagente.aspx" >Comisión Subagente</a>  
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <a id="A11" href="ConsultaAgencia.aspx" >Agencia</a> 
-            </td>
-        </tr>
-		<tr>
-            <td>
-                <a id="A12" href="ConsultaTerritorio.aspx" >Territorio</a> 
-            </td>
-        </tr>
-     </tbody>
-</table>
-</div>
-</td>
-</tr>
-<!--
-Fin
-!--> 
 
 </tbody>
 </table>
@@ -240,77 +54,82 @@ Fin
     </tr>
     <tr  class="TRlist3">
         <td>Nombre Empresa</td>
-        <td ><input name="txtApePatCli" type="text" id="txtApePatCli" class="graybuttonNormal" style="width:224px;"></td>
+        <td ><asp:TextBox name="txtNombreEmpresa" type="text" id="txtNombreEmpresa" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox>
+        </td>
         <td>Razón Social</td>
-        <td ><input name="txtApePatCli" type="text" id="Text1" class="graybuttonNormal" style="width:224px;"></td>
+        <td ><asp:TextBox name="txtRazonSocial" type="text" id="txtRazonSocial" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Tipo Documento</td>
         <td >
-            <SELECT  style="width:150PX;">
-                <OPTION>RUC</OPTION>
-            </SELECT>
+            &nbsp;<asp:DropDownList ID="cboTipoDocumentoEmpresa" runat="server" Height="16px" 
+                Width="147px">
+                <asp:ListItem Value="RUC"></asp:ListItem>
+            </asp:DropDownList>
         </td>
         <td>Número Documento</td>
-        <td ><input name="txtApePatCli" type="text" id="Text3" class="graybuttonNormal" style="width:94px;"></td>
+        <td ><asp:TextBox name="txtNumeroDcoumento" type="text" id="txtNumeroDcoumento" class="graybuttonNormal" style="width:94px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Territorio Solicitante</td>
         <td >
-            <SELECT  style="width:150PX;">
-                <OPTION>PERÚ</OPTION>
-                <OPTION>USA</OPTION>
-                <OPTION>INGLATERRA</OPTION>
-            </SELECT>
+            &nbsp;<asp:DropDownList ID="cboTerritorioSolicitante" runat="server" Height="16px" 
+                Width="148px">
+                <asp:ListItem>PERU</asp:ListItem>
+                <asp:ListItem>USA</asp:ListItem>
+                <asp:ListItem>INGLATERRA</asp:ListItem>
+            </asp:DropDownList>
         </td>
         <td>Dirección Solicitante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text5" class="graybuttonNormal" style="width:224px;"></td>
-    </tr>
+        <td ><asp:TextBox name="txtDireccionSolicitante" type="text" id="txtDireccionSolicitante" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox></td>
+    </tr> 
     <tr  class="TRlist3">
         <td>Código Postal</td>
-        <td ><input name="txtApePatCli" type="text" id="Text4" class="graybuttonNormal" style="width:124px;"></td>
+        <td ><asp:TextBox name="txtCodigoPostal" type="text" id="txtCodigoPostal" class="graybuttonNormal" style="width:124px;" runat="server"></asp:TextBox></td>
         <td>WEB Solicitante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text2" class="graybuttonNormal" style="width:224px;"></td>
+        <td ><asp:TextBox  name="txtWebSoliciiante" type="text" id="txtWebSoliciiante" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Correo Solicitante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text6" class="graybuttonNormal" style="width:124px;"></td>
+        <td ><asp:TextBox  name="txtCorreoSolicitante" type="text" id="txtCorreoSolicitante" class="graybuttonNormal" style="width:124px;" runat="server"></asp:TextBox></td>
         <td>Telféfono Empresa</td>
-        <td ><input name="txtApePatCli" type="text" id="Text7" class="graybuttonNormal" style="width:224px;"></td>
+        <td ><asp:TextBox  name="txtTelefonoEmpresa" type="text" id="txtTelefonoEmpresa" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Fecha Inicio Operaciones</td>
         <td >
-            <input name="txtApePatCli" type="text" id="Text8" class="graybuttonNormal" style="width:84px;">&nbsp;
-            <img alt="" src="../res/img/search.gif" border="0" align="texttop">
+            <asp:TextBox name="txtFechaInicioOperaciones" type="text" id="txtFechaInicioOperaciones" class="graybuttonNormal" style="width:84px;" runat="server"></asp:TextBox>&nbsp;
+            <img alt="" src="res/img/search.gif" border="0" align="texttop">
         </td>
         <td>Nombre Representante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text9" class="graybuttonNormal" style="width:224px;"></td>
+        <td ><asp:TextBox name="txtNombreRepresentante" type="text" id="txtNombreRepresentante" class="graybuttonNormal" style="width:224px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Tipo Doc. Representante</td>
         <td >
-            <SELECT  style="width:150PX;">
-                <OPTION>DNI</OPTION>
-                <OPTION>CARNET EXTRANJERÍA</OPTION>
-            </SELECT>
+            &nbsp;<asp:DropDownList ID="cboTipoDocumento" runat="server" Height="16px" Width="149px">
+                <asp:ListItem>DNI</asp:ListItem>
+                <asp:ListItem>CARNET EXTRANJERIA</asp:ListItem>
+            </asp:DropDownList>
         </td>
         <td>Núm. Doc. Representante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text10" class="graybuttonNormal" style="width:94px;"></td>
+        <td ><asp:TextBox name="txtNumeroDocumentoRepresentante" type="text" id="txtNumeroDocumentoRepresentante" class="graybuttonNormal" style="width:94px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Telféfono Representante</td>
-        <td ><input name="txtApePatCli" type="text" id="Text11" class="graybuttonNormal" style="width:124px;"></td>
+        <td ><asp:TextBox name="txtTelefonoRepresentante" type="text" id="txtTelefonoRepresentante" class="graybuttonNormal" style="width:124px;" runat="server"></asp:TextBox></td>
         <td>Número Carta Fianza</td>
-        <td ><input name="txtApePatCli" type="text" id="Text12" class="graybuttonNormal" style="width:124px;"></td>
+        <td ><asp:TextBox name="txtNumeroCartaFianza" type="text" id="txtNumeroCartaFianza" class="graybuttonNormal" style="width:124px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Nro. Certificado IATA</td>
-        <td colspan=4><input name="txtApePatCli" type="text" id="Text13" class="graybuttonNormal" style="width:124px;"></td>
+        <td colspan=4><asp:TextBox name="txtNumeroCertificadoIata" type="text" id="txtNumeroCertificadoIata" class="graybuttonNormal" style="width:124px;" runat="server"></asp:TextBox></td>
     </tr>
     <tr  class="TRlist3">
         <td>Comentarios</td>
-        <td colspan=4 ><textarea cols=80 rows=5></textarea></td>
+        <td colspan=4 ><asp:TextBox runat="server" TextMode="MultiLine" 
+                name="txtComentarios" ID="txtComentarios" Height="54px" Width="526px"></asp:TextBox>
+        </td>
     </tr>
 </table>
 <table>
@@ -319,9 +138,12 @@ Fin
     </tr>
     <tr>
         <td colspan=8>
-            <input type="button" name="btnUpdProspecto" value="Grabar" id="btnUpdProspecto" class="graybutton" style="width:80px;" onclick="javascript:window.alert('Los datos se guardaron satisfactoriamente');location.href='ConsultaAfiliacion.aspx';">&nbsp;
-            <input type="button"  name="btnUpdProspecto" value="Enviar" id="Submit1" class="graybutton" style="width:80px;" onclick="javascript:window.alert('Los datos se guardaron y enviaron satisfactoriamente');location.href='ConsultaAfiliacion.aspx';" >&nbsp;                                        
-            <input type="button"  name="btnUpdProspecto" value="Cancelar" id="Button1" class="graybutton" style="width:80px;" onclick="javascript:Cancela();" >
+            &nbsp;<asp:Button runat="server" ID="btnGrabar" Text="Grabar" 
+                CssClass="graybutton" />
+            <asp:Button ID="btnEnviar" runat="server" Text="Enviar" CssClass="graybutton" />
+            <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" 
+                CssClass="graybutton" />
+            <asp:Button ID="Button1" runat="server" Text="Button" />
         </td>
     </tr>
 
