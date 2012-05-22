@@ -49,7 +49,15 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BE_EstadoSolicitud.vb" />
+    <Compile Include="BE_MotivoRechazo.vb" />
+    <Compile Include="BE_Persona.vb" />
+    <Compile Include="BE_ReglaAfiliacion.vb" />
     <Compile Include="BE_Solicitud.vb" />
+    <Compile Include="BE_Agencia.vb" />
+    <Compile Include="BE_SolicitudAfiliacion.vb" />
+    <Compile Include="BE_Subagente.vb" />
+    <Compile Include="BE_TipoDocumento.vb" />
     <Compile Include="BE_Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -49,6 +49,7 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL_Estado.vb" />
     <Compile Include="BL_Solicitud.vb" />
     <Compile Include="BL_Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
