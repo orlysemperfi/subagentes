@@ -1,0 +1,18 @@
+.graphite {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; font-size:10px; FONT-WEIGHT: normal; TEXT-ALIGN: right; BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px;}
+.graphite .accordion {FONT-WEIGHT: normal; TEXT-ALIGN: right; BORDER-TOP: #cccccc 1px solid; MARGIN-BOTTOM: 7px; WIDTH: 132px;}
+.graphite .accordion, .graphite .accordion li {margin: 0; padding: 0; border: none}
+.graphite .accordion a {display: block; 
+    padding: 2px 2px 4px 2px; 
+	WIDTH: 100%; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 3px; 
+	BACKGROUND-COLOR: #9a9a68;
+	TEXT-DECORATION: none;
+	FONT-WEIGHT: bold;
+	}
+.graphite .accordion a:hover {COLOR: #ffffff; BACKGROUND-COLOR: #9a9a68; FONT-WEIGHT: bold;}
+.graphite .accordion ul a {COLOR: #666666; BACKGROUND-COLOR: #ebebe1; FONT-WEIGHT: normal;}
+.graphite .accordion ul a:hover {COLOR: #666666; BACKGROUND-COLOR: #CFCFC7; FONT-WEIGHT: normal;}
+.graphite .accordion a.dcjq-parent, .graphite .accordion a.dcjq-parent:hover {background: #9a9a68;}
+.graphite .accordion a.dcjq-parent.active {}
+.graphite .accordion a:active{COLOR: #666666; BACKGROUND-COLOR: #CFCFC7; FONT-WEIGHT: normal;}
