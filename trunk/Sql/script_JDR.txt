@@ -1,0 +1,49 @@
+USE [BD_SUBAGENTES]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_SOLICITUD_BUSCAR]    Script Date: 05/22/2012 01:30:10 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SP_SOLICITUD_BUSCAR]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [dbo].[SP_SOLICITUD_BUSCAR]
+GO
+
+USE [BD_SUBAGENTES]
+GO
+
+/****** Object:  StoredProcedure [dbo].[SP_SOLICITUD_BUSCAR]    Script Date: 05/22/2012 01:30:10 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[SP_SOLICITUD_BUSCAR]
+(
+	@FechaRegIni as datetime,
+	@FechaRegFin as datetime,
+	@FechaAteIni as datetime,
+	@FechaAteFin as datetime,
+	@Estado	     as integer 
+)
+AS
+declare @intEstado integer
+
+If @Estado = 0 
+	set @intEstado = null
+else
+	set @intEstado = @Estado
+
+SELECT	so.Nu_numSolicitud as Numero, 
+		sa.No_razonSocial as Empresa,
+		convert(varchar(10),so.Fe_fecSolicitud,103) as FechaSolicitud,
+		convert(varchar(10),so.Fe_fecRevisionRepLegal,103) as FechaAtencion, 
+		so.Fk_estadoSolicitud as situacion,
+		es.No_descEstado as DescSituacion
+FROM TB_Solicitud so 
+inner join TB_Subagente sa on sa.Nu_codSubagente = so.Fk_codSubagente
+inner join TB_EstadoSolicitud es on so.Fk_estadoSolicitud = es.Nu_codEstadoSolic
+WHERE (so.Fe_fecSolicitud between @FechaRegIni and @FechaRegFin)
+AND	 (so.Fe_fecSolicitud between @FechaAteIni and @FechaAteFin) 
+AND	 (so.Fk_estadoSolicitud = @intEstado or @intEstado is null)
+
+GO
+
